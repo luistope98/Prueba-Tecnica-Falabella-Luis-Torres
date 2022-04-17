@@ -1,0 +1,324 @@
+.container-fluid {
+  font-family: 'Sarabun', sans-serif;
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+
+.imgZoom {
+  transition: all 1s;
+}
+
+.imgZoom:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  overflow: hidden;
+}
+
+/* Estilo Banner*/
+
+.carousel-indicators .active {
+  background-color: #41167A !important;
+  border: 1px solid #41167A !important;
+}
+
+.carousel-indicators li {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #6B5A81 !important;
+  border: 1px solid #6B5A81 !important;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  transition: all 1s;
+}
+
+.banner1{
+  content: url(../image/Banner1.png);
+}
+.banner2{
+  content: url(../image/Banner2.png);
+}
+
+.carousel-item a {
+  cursor: pointer;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px 15px;
+}
+
+.carousel-control-prev-icon {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px 15px;
+}
+
+/* Sección Mensaje Inicio*/
+
+.Cont__Mensaje__Parrafo {
+  padding: 5% 5%;
+  text-align: center;
+  color: black;
+  font-size: medium;
+}
+
+/* Estilo Galerria de Secciones */
+.Cont__Galeria {
+  padding: 10px 3%;
+  text-align: center;
+}
+
+.Cont__Galeria__Img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.computadores{
+  content: url(../image/Falabellra-Galeria1.png);
+}
+
+
+/*Estilo Videos */
+
+.Cont__Videos {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Cont__Videos h2 {
+  font-size: large;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.Cont__Videos__Multimedia {
+  width: 100%;
+  height: auto;
+}
+
+.Cont__Videos__Iframe {
+  width: 100%;
+  height: 350px;
+}
+
+.Cont__Videos__texto {
+  color: black;
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/*Estilos Guia y carrusel */
+
+.Cont__Guia {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.Cont__Guia h2 {
+  font-size: large;
+  margin: 50px 0px 20px 0px;
+  font-weight: bolder;
+}
+
+.Cont__Guia span {
+  font-size: small;
+
+}
+
+.Cont__Guia__parrafo {
+  font-size: medium;
+  text-align: left;
+  margin-bottom: 10px
+}
+
+.Cont__Guia__Carrusel {
+  margin-bottom: 10px;
+}
+
+
+.swiper-button-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white !important;
+  width: 10px;
+  height: 50px !important;
+  padding: 10px 10px !important;
+  right: 0px !important;
+  font-size: 2px !important;
+}
+
+
+.swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white !important;
+  width: 10px;
+  height: 50px !important;
+  padding: 10px 10px !important;
+  left: 0px !important;
+}
+
+
+
+.Cont__Guia__Card {
+  background-color: #ECECEC;
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+.Cont__Guia__Card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.Cont__Guia__Card h3 {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.Cont__Guia__Card_parrafo {
+  padding: 0 10%;
+  font-size: 12px;
+}
+
+.Cont__Guia__Card a {
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #7777;
+}
+
+/*Estilos Marca*/
+
+.Cont_Marca h2 {
+  text-align: center;
+  font-size: large;
+  margin: 20px 0px 20px 0px;
+  font-weight: bolder;
+}
+
+.Marca {
+  margin-bottom: 30px;
+}
+
+.Marca__Cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ECECEC;
+  padding: 60px 30px;
+  border-radius: 30px;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+
+}
+
+.Marca__Cont img {
+  width: 40%;
+  height: auto;
+}
+
+.Cont__Ofertas {
+  padding: 10px 3%;
+}
+
+.Cont__Ofertas img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.Cont__MarcasColor {
+  padding: 10px 15%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Cont__MarcasColor img {
+  width: 60%;
+  height: auto;
+
+}
+
+.Cont__MarcasColor a {
+  display: block;
+  color: black;
+  font-weight: bolder;
+}
+
+/* Estilos Celular*/
+@media screen and (max-width: 990px) {
+  .banner1{
+    content: url(../image/banner-cel-1.jpg);
+  }
+  .banner2{
+    content: url(../image/banner-cel-2.jpg);
+  }
+  .computadores{
+    content: url(../image/Falabellra-Galeria-dest.png);
+  }
+
+  .Cont__Guia__Card_parrafo{
+    height: auto !important;
+  }
+  .Cont__Videos__Iframe {
+    height: 250px;
+  }
+  
+
+  .Marca {
+    margin-bottom: 10px;
+  }
+  
+  
+  .Marca__Cont img {
+    width: 60%;
+    height:auto;
+  }
+  
+  .Cont__Ofertas {
+    padding: 10px 3%;
+  }
+  
+  .Cont__Ofertas img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .Cont__MarcasColor {
+    padding: 10px 15%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .Cont__MarcasColor img {
+    width: 100%;
+    height: auto;
+  
+  }
+  .Cont__MarcasColor a{
+    font-size: small;
+  }
+  
+}
